@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+}
+body {
+  height: 90%;
+  background: #f5f5f5;
+}
+.full-width {
+  width: 100%;
+}
+.shrinkapp {
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  margin: 2% auto;
+}
+.header h1 {
+  margin: 48px;
+  font-size: 52px;
+  text-align: center;
+  color: rgba(14,103,199,0.35);
+}
+input.shrink {
+  font-size: 20px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 25px 50px 0 rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.003);
+  padding: 22px 80px 22px 42px;
+  border-radius: 76px;
+  color: #444;
+}
+i.shrink-enter {
+  left: -70px;
+  position: relative;
+  font-size: 1.85em;
+  cursor: pointer;
+  color: #00f;
+  width: 0;
+}
+.info {
+  margin: 65px auto 0;
+  color: #bfbfbf;
+  font-size: 10px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  text-align: center;
+}
+.footer {
+  color: #777;
+  padding: 10px 15px;
+  height: 20px;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: rgba(119,79,79,0.5);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+input.shrink:focus {
+  outline: none;
+}
+

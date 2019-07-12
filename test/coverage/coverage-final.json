@@ -1,0 +1,2 @@
+{"D:\\Workspace\\js\\myapp\\src\\index.js": {"path":"D:\\Workspace\\js\\myapp\\src\\index.js","statementMap":{"0":{"start":{"line":7,"column":0},"end":{"line":10,"column":2}},"1":{"start":{"line":9,"column":15},"end":{"line":9,"column":21}}},"fnMap":{"0":{"name":"(anonymous_0)","decl":{"start":{"line":9,"column":10},"end":{"line":9,"column":11}},"loc":{"start":{"line":9,"column":15},"end":{"line":9,"column":21}},"line":9}},"branchMap":{},"s":{"0":0,"1":0},"f":{"0":0},"b":{},"hash":"132b2892f46d09765cc57577367f762f5eba291c"}
+}
